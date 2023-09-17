@@ -15,8 +15,7 @@ body {
     font-family: sans-serif;
     color: #ffffff;
     text-shadow: 5px 5px #242424;
-    margin: 0;
-    padding-bottom: 10px;
+    bottom: -40px;
   }
 
 #topbar {
@@ -70,7 +69,7 @@ body {
 
 .panel {
     margin-left: 100px;
-    width: 750px;
+    width: 900px;
     margin-bottom: 70px;
 }
 
@@ -81,6 +80,21 @@ body {
     width: 75%;
 }
 
+#contact-info h1{
+    bottom: 0;
+}
+
+#about-me img, #contact-info img{
+    scale: .8;
+    padding: 30px;
+}
+
+#about-me img, #about-me p, #contact-info img, #contact-info p {
+    float:left; 
+    display:inline; 
+    margin: 0;
+}
+
 #contact-info, #about-me{
     margin: right;
     padding-top: 70px;
@@ -89,6 +103,10 @@ body {
 #contact-info p, #about-me p{
     font-weight: normal;
     width: 120%;
+}
+
+#contact-info h1, #about-me h1{
+    position: relative;
 }
 
 footer {
