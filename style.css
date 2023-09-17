@@ -38,6 +38,12 @@ body {
 
 .icon{
     margin: 25px;
+    
+}
+
+.icon:hover{
+    opacity:0.4;
+    filter:alpha(opacity=40); 
 }
 
 #octocat-icon {
