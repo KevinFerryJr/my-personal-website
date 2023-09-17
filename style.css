@@ -5,7 +5,7 @@ body {
     margin: 0;
     height: 50px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20pt;
+    font-size: 32pt;
     font-weight: bolder;
     color: #ee4071;
     text-shadow: 2px 2px #24070e;
@@ -18,12 +18,12 @@ body {
 
 #link-container {
     position: relative;
-    width: 50%;
-    bottom: 75px;
+    width: 75%;
+    bottom: 90px;
     text-align: center;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #link-container a{
@@ -52,14 +52,14 @@ body {
 
 .panel {
     margin-left: 100px;
-    width: 650px;
+    width: 750px;
     margin-bottom: 70px;
-    scale: auto;
 }
 
 .panel p{
     margin: auto;
     background-color: #0a0a0a85;
+    font-size: 24pt;
 }
 
 footer {
@@ -70,12 +70,19 @@ footer {
     width: 100%;
     text-align: center;
     z-index: 1; /* Ensure footer appears above other content */
+    padding: 20px;
 }
 
 footer p{
-    background: #0A0A0A;
-    color: #ee4071;
-    font-size: 14pt;
-    text-shadow: 2px 2px #24070e;
+    margin: auto;
+    width: 50%;
     text-align: center;
+    top: 20px;
+    font-size: 18pt;
+}
+
+@media (max-width: 480px) {
+    footer {
+        position: static;
+    }
 }
