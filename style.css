@@ -5,6 +5,7 @@ body {
     height: 50px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 24pt;
+    color: #ff5c8b;
   }
 
 #topbar {
@@ -20,6 +21,11 @@ body {
     margin: auto;
     display: flex;
     justify-content: space-between;
+}
+
+#link-container a{
+    text-decoration: none;
+    color: #ff5c8b;
 }
 
 .icon{
