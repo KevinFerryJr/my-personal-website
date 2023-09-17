@@ -35,3 +35,17 @@ body {
 #octocat-icon {
     float: right;
 }
+
+#personal-tag{
+    margin: 25px;
+    margin-left: 100px;
+}
+
+.panel {
+    margin-left: 100px;
+    width: 650px;
+}
+
+.panel img{
+    
+}
