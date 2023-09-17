@@ -14,6 +14,7 @@ body {
   h1{
     font-family: sans-serif;
     color: #ffffff;
+    text-shadow: 5px 5px #24070e;
     margin: 0;
     padding-bottom: 10px;
   }
@@ -78,6 +79,17 @@ body {
     background-color: #0a0a0a85;
     font-size: 24pt;
     width: 75%;
+}
+
+#contact-info{
+    margin: auto;
+    padding-top: 70px;
+    width: 50%;
+}
+
+#contact-info p{
+    font-weight: normal;
+    width: 120%;
 }
 
 footer {
