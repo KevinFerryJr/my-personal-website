@@ -106,11 +106,15 @@ body {
 
 #contact-info p, #about-me p{
     font-weight: normal;
-    width: 120%;
+    width: 100%;
 }
 
 #contact-info h1, #about-me h1{
     position: relative;
+}
+
+.pre-footer{
+    padding: 100px;
 }
 
 footer {
@@ -122,10 +126,6 @@ footer {
     text-align: center;
     z-index: 1; /* Ensure footer appears above other content */
     padding: 20px;
-}
-
-.pre-footer{
-    padding: 50px;
 }
 
 footer p{
