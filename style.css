@@ -1,13 +1,10 @@
-@font-face {
-    font-family: "OCR A";
-    src: url("myFont.woff2");
-  }
-
 body {
     background: #282828;
     background-image: url("./assets/bg.png");
     margin: 0;
     height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24pt;
   }
 
 #topbar {
@@ -18,15 +15,11 @@ body {
 #link-container {
     position: relative;
     width: 50%;
-    top: -60px;
+    bottom: 70px;
     text-align: center;
     margin: auto;
     display: flex;
     justify-content: space-between;
-}
-
-#link-container a{
-    font-family: ;
 }
 
 .icon{
