@@ -6,3 +6,10 @@ body {
 #topbar {
     background: #0A0A0A;
 }
+
+#link-container{
+    background: #ffffff;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
