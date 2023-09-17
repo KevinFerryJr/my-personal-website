@@ -1,3 +1,6 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-/* document.querySelector("body").appendChild(h2); */
+const currentDate = new Date();
+const currentYear = currentDate.getFullYear();
+
+const footer = document.createElement("p");
+footer.textContent = `© Kevin Ferry Jr. ${currentYear}`;
+document.querySelector("footer").appendChild(footer);
