@@ -81,13 +81,13 @@ body {
     width: 75%;
 }
 
-#contact-info{
+#contact-info, #about-me{
     margin: auto;
     padding-top: 70px;
     width: 50%;
 }
 
-#contact-info p{
+#contact-info p, #about-me p{
     font-weight: normal;
     width: 120%;
 }
