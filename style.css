@@ -16,6 +16,10 @@ body {
     height: 100px;
 }
 
+#link-container a:hover {
+    color: rgb(255, 255, 255);
+  }
+
 #link-container {
     position: relative;
     width: 75%;
