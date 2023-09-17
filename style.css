@@ -1,21 +1,31 @@
 body {
     background: #282828;
     margin: 0;
+    height: 50px;
   }
 
 #topbar {
     background: #0A0A0A;
+    height: 100px;
 }
 
 #link-container {
     position: relative;
     width: 50%;
-    top: -25px;
+    top: -60px;
     text-align: center;
     margin: auto;
-    margin-bottom: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 
 #link-container a{
-    margin-right: 5%;
+}
+
+.icon{
+    margin: 25px;
+}
+
+#octocat-icon {
+    float: right;
 }
