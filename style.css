@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "OCR A";
+    src: url("myFont.woff2");
+  }
+
 body {
     background: #282828;
+    background-image: url("./assets/bg.png");
     margin: 0;
     height: 50px;
   }
@@ -20,6 +26,7 @@ body {
 }
 
 #link-container a{
+    font-family: ;
 }
 
 .icon{
