@@ -5,7 +5,7 @@ body {
     margin: 0;
     height: 50px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 24pt;
+    font-size: 20pt;
     font-weight: bolder;
     color: #ee4071;
     text-shadow: 2px 2px #24070e;
@@ -58,6 +58,19 @@ body {
 
 .panel p{
     margin: auto;
-    bottom: -70px;
     background-color: #0a0a0a85;
+}
+
+#footer {
+    margin: auto;
+    background: #0A0A0A;
+    height: 70px;
+}
+
+#footer p{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    top: 20px;
 }
