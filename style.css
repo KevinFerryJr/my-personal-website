@@ -57,6 +57,7 @@ body {
     margin-left: 100px;
     width: 650px;
     margin-bottom: 70px;
+    scale: auto;
 }
 
 .panel p{
@@ -77,7 +78,7 @@ footer {
 footer p{
     background: #0A0A0A;
     color: #ee4071;
-    font-size: 12pt;
+    font-size: 14pt;
     text-shadow: 2px 2px #24070e;
     text-align: center;
 }
