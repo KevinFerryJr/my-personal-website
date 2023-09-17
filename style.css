@@ -1,3 +1,8 @@
 body {
-    background: blue;
+    background: #282828;
+    margin: 0;
   }
+
+#topbar {
+    background: #0A0A0A;
+}
