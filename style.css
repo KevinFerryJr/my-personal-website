@@ -82,7 +82,7 @@ body {
 }
 
 #contact-info, #about-me{
-    margin: auto;
+    margin: right;
     padding-top: 70px;
     width: 50%;
 }
