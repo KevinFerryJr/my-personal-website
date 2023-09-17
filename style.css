@@ -3,15 +3,12 @@ body {
     background-image: url("./assets/bg-update.png");
     background-attachment: fixed;
     margin: 0;
-    height: 100vh; /* Set the body height to the full viewport height */
     height: 50px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20pt;
     font-weight: bolder;
     color: #ee4071;
     text-shadow: 2px 2px #24070e;
-    display: flex;
-    flex-direction: column;
   }
 
 #topbar {
