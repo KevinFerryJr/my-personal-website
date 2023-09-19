@@ -103,6 +103,10 @@ body {
     margin-bottom: 150px;
 }
 
+#about-me p, #contact-me p{
+    width: 100%;
+}
+
 #contact-info, #about-me{
     margin: right;
     padding-top: 20px;
