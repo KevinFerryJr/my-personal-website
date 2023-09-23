@@ -116,6 +116,12 @@ body {
     position: relative;
 }
 
+#blob-itch-link {
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+
 footer {
     background: #0A0A0A;
     position: fixed;
